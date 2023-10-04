@@ -1,4 +1,3 @@
 # IoTwithML
 
-Editing the Read me file. 
-Edit #1
+This Folder Includes HW repositories and projects for Iot with ML.
