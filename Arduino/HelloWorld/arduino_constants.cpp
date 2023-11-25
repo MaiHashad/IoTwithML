@@ -15,6 +15,6 @@ limitations under the License.
 
 #include "constants.h"
 
-// This is tuned so that a full cycle takes ~6.6 seconds on an
-// Arduino Nano 33 BLE.
-const int kInferencesPerCycle = 200;
+// This is tuned so that a full cycle takes ~4 seconds on an Arduino MKRZERO.
+// the smaller the bumber the more compressed the wave will be.
+const int kInferencesPerCycle = 1000;

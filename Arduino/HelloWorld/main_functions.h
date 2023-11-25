@@ -13,13 +13,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#ifndef TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_MAIN_FUNCTIONS_H_
-#define TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_MAIN_FUNCTIONS_H_
-
-// Expose a C friendly interface for main functions.
-#ifdef __cplusplus
-extern "C" {
-#endif
+#ifndef TENSORFLOW_LITE_EXPERIMENTAL_MICRO_EXAMPLES_HELLO_WORLD_MAIN_FUNCTIONS_H_
+#define TENSORFLOW_LITE_EXPERIMENTAL_MICRO_EXAMPLES_HELLO_WORLD_MAIN_FUNCTIONS_H_
 
 // Initializes all data needed for the example. The name is important, and needs
 // to be setup() for Arduino compatibility.
@@ -30,8 +25,4 @@ void setup();
 // compatibility.
 void loop();
 
-#ifdef __cplusplus
-}
-#endif
-
-#endif  // TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_MAIN_FUNCTIONS_H_
+#endif  // TENSORFLOW_LITE_EXPERIMENTAL_MICRO_EXAMPLES_HELLO_WORLD_MAIN_FUNCTIONS_H_
