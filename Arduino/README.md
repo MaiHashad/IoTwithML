@@ -171,7 +171,7 @@ Note: If you have issues loading the firmware, be sure that you double press the
 
 ## Exercise 2: Micro_Speech
 
-![micro_speech1](./images/micro_speech1.png)
+![micro_speech1](./MicroSpeech/images/micro_speech1.png)
 
 Image from [TinyML](https://www.oreilly.com/library/view/tinyml/9781492052036/)
 
@@ -215,8 +215,8 @@ If you are curious on how the audio is trained for this example, you can load, r
 
 In this test you can find the data that is mocked out for [YES](https://github.com/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/examples/micro_speech/micro_features/yes_micro_features_data.cc) and [NO](https://github.com/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/examples/micro_speech/micro_features/no_micro_features_data.cc)
 
-![spect_yes](./images/spect-yes.png)
-![spect_no](./images/spect-no.png)
+![spect_yes](./MicroSpeech/images/spect-yes.png)
+![spect_no](./MicroSpeech/images/spect-no.png)
 
 Images from [TinyML](https://www.oreilly.com/library/view/tinyml/9781492052036/)
 
