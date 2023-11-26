@@ -1,7 +1,7 @@
 ## Main Project file:
 distance.ino
 
-Ran with Randome distanc values 
+Ran with random distanc values 
 
 ## Output:
 
