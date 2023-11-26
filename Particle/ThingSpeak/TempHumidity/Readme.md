@@ -1,3 +1,8 @@
+## Script:
+
+![script](./images/TempHumidity_script.PNG)
+
+
 ## Output Data:
 
-![channel](./channel.PNG)
+![channel](./images/channel.PNG)
