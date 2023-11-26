@@ -1,3 +1,3 @@
 ## Output Data:
 
-![alt text](./channel.png)
+![OutputImage](Particle/ThingSpeak/TempHumidity/channel.PNG)
