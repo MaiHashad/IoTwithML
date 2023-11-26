@@ -5,4 +5,4 @@ Ran with Randome distanc values
 
 ## Output:
 
-![distance](./distance.png)
+![distance](./distance.PNG)
