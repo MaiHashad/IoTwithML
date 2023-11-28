@@ -6,4 +6,4 @@
 (2) An event with the message "The car is parked" is published as a Particle Event
 
 
-![Sensor](./images/sensor)
+![Sensor](./images/ParkingSensor.PNG)
