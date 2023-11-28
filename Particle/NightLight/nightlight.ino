@@ -1,42 +1,27 @@
-#include <math.h>
-#include <Grove_ChainableLED.h>                 // RGB LED library
+const int pinLight = A0;
+const int pinLed = 7;
 
-ChainableLED leds(D2, D3, 1); // LED object constructor
-const int thresholdvalue=10; //The threshold for which the LED should turn on. 
-float Rsensor;
+const int thresholdvalue=200;  
 
 void setup()
 {
-	Serial.begin(9600);             // Begin serial communications
-    leds.init();                    // initialise the LED
+    pinMode(pinLed, OUTPUT);
+	Serial.begin(9600);            
 }
 
 void loop()
 {
 
-  int sensorValue = analogRead(0); 
-  Serial.println(sensorValue);
-  if (sensorValue < 300){
-      leds.setColorRGB(0, 0, 0, 0);
+  int sensorValue = analogRead(pinLight); 
+  
+  if (sensorValue < thresholdvalue){
+      digitalWrite(pinLed, HIGH);
   }
   else{
-       leds.setColorRGB(0, 0, 255, 0);
+       digitalWrite(pinLed, LOW);
   }
-
+  
+  Serial.println(sensorValue);
   delay(100);
 }
 
-  //Rsensor = (float)(1023-sensorValue)*10/sensorValue;
-  
-  //if(Rsensor<thresholdvalue)
-  //{
-  //  leds.setColorRGB(0, 0, 0, 0);                         // off
-  //}
-  //else
-  //{
-//      leds.setColorRGB(0, 255, 0, 0);                         // red
-  //}
-  //Serial.println("the analog read data is ");
-  //Serial.println(sensorValue);
-  //Serial.println("the sensor resistance is ");
-  //Serial.println(Rsensor,DEC);//show the light intensity on the serial monitor;
