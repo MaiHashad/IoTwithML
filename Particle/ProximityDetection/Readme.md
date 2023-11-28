@@ -9,9 +9,25 @@
 (4) Ultrasonic range finder <br />
 (5) Grove wires
 
-## Connection:
+## Connection
 D2 ->	RGB LED <br />
 D4 ->	Ultrasonic range finder
+
+
+## Output
+
+Too Close
+
+![Red](./images/red.jpg)
+
+Near
+
+![Yellow](./images/yellow.jpg)
+
+Far
+
+![Green](./images/green.jpg)
+
 
 ## Resource: 
 https://store.particle.io/blogs/featured-projects/build-a-simple-proximity-detection-device
