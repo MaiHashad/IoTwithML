@@ -3,7 +3,7 @@
  The goal of this project is to use the ultrasonic range finder to measure the distance to an object from the Argon.
 
 ## Required hardware
-(1) Particle Argon — this project assumes you've set up your Argon. If you've not done that yet, follow the instructions here before you begin this project.
+(1) Particle Argon — this project assumes you've set up your Argon. If you've not done that yet, follow the instructions here before you begin this project. <br />
 (2) Grove shield for Particle Mesh
 (3) Chainable RGB LED V2
 (4) Ultrasonic range finder
