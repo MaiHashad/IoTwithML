@@ -1,4 +1,4 @@
-# SEIS744-Particle-ThingSpeak
+## Particle-ThingSpeak
 
 This is a lab is created by Prof. Justin Grammens for a Masters in Software and Data Science class at hte University of Saint Thomas. In this lab we cover just a small slice of what is possible with an IoT device sending data to a cloud service. The focus in this lab is on data visualizion and free/low cost tools that allow us to explore and make interesting and useful projects.
 
