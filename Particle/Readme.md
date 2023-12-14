@@ -9,7 +9,7 @@ https://docs.particle.io/quickstart/argon/
 
 ## Installing Particle Workbench:
 https://docs.particle.io/quickstart/workbench/
-![light](./images/Workbench.PNG)
+![light](./images/workbench.PNG)
 
 ## More Projects:
 * https://docs.particle.io/quickstart/isk-project/#particle-variables-measure-temperature-amp-humidity
