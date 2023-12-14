@@ -62,3 +62,11 @@ A pre-trained multi-layer convolutional network designed to efficiently classify
 ## Arduino Output:
 
 
+### Awake:
+
+![blue](./images/blue.PNG)
+
+
+### Asleep / Not awake:
+
+![red](./images/Red1.PNG)
