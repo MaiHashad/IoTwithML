@@ -2,7 +2,11 @@
 
 This project is built on the [Adding Sight to Your Sensors](https://docs.edgeimpulse.com/docs/tutorials/end-to-end-tutorials/image-classification) tutorial on Edge Impulse.
 
-In this project, we use machine learning to build a system that can recognize asleep and awake peaople in front of a camera. This is using and image classification model connected to the microcontroller [Arduino Nano 33 BLE Sense](https://store-usa.arduino.cc/products/arduino-nano-33-ble-sense). In this project, we collect images for a well-balanced dataset of asleep and awake people, apply transfer learning to train a neural network, and deploy the system to the Arduino embedded device.
+In this project, we use machine learning to build a system that can recognize asleep and awake peaople in front of a camera. This is using and image classification model connected to the microcontroller [Arduino Nano 33 BLE Sense](https://store-usa.arduino.cc/products/arduino-nano-33-ble-sense). In this project, we collect images for a well-balanced dataset of asleep and awake people, apply transfer learning to train a neural network, and deploy the system to the Arduino embedded device. 
+
+## Goal: 
+
+If Arduino detects a person is awake (probaility[awake] >= 70%) it shows a blue Light and if the person is asleep it shows red light (probaility[awake] < 70%).
 
 ## Prerequisites
 
@@ -47,10 +51,14 @@ A pre-trained multi-layer convolutional network designed to efficiently classify
 ![metrics](./images/modelMetrics.PNG)
 
 
-## Training Output
+## Edge Impulse - Training Output
 ![train](./images/trainingResults.PNG)
 
 
-## Test Output
+## Edge Impulse - Test Output
 
 ![test](./images/testResults.PNG)
+
+## Arduino Output:
+
+
