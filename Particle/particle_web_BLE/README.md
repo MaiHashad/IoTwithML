@@ -1,5 +1,8 @@
 # web-ble-vue
 
+This project was not successfull. Here are a few commands to help run this project in the fututre.
+
+
 ## Project setup
 ```
 npm install
