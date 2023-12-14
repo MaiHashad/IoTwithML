@@ -1,8 +1,9 @@
 # FirstProject
 
-This firmware project was created using [Particle Developer Tools](https://www.particle.io/developer-tools/) and is compatible with all [Particle Devices](https://www.particle.io/devices/).
+This firmware project and Readme file were created using [Particle Developer Tools](https://www.particle.io/developer-tools/)
 
-Feel free to replace this README.md file with your own content, or keep it for reference.
+
+![image](./images/code.PNG)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -20,7 +21,7 @@ Feel free to replace this README.md file with your own content, or keep it for r
 
 ## Introduction
 
-For an in-depth understanding of this project template, please refer to our [documentation](https://docs.particle.io/firmware/best-practices/firmware-template/).
+For an in-depth understanding of this project template, please refer to the [documentation](https://docs.particle.io/firmware/best-practices/firmware-template/).
 
 ## Prerequisites To Use This Repository
 
@@ -90,11 +91,3 @@ To learn how to utilize Particle's OTA service for device updates, consult [this
 Test OTA with the 'Particle: Cloud Flash' command in Visual Studio Code or the CLI command 'particle flash'!
 
 This firmware supports binary assets in OTA packages, allowing the inclusion of audio, images, configurations, and external microcontroller firmware. More details are [here](https://docs.particle.io/reference/device-os/api/asset-ota/asset-ota/).
-
-## Support and Feedback
-
-For support or feedback on this template or any Particle products, please join our [community](https://community.particle.io)!
-
-## Version
-
-Template version 1.0.2
