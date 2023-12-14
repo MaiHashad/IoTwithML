@@ -4,9 +4,13 @@ The Particle Argon is a development kit with Wi-Fi and Bluetooth radios for buil
 
 ## Particle Setup:
 https://docs.particle.io/quickstart/argon/
+![devices](./images/devices.PNG)
+
+![light](./images/light.jpg)
 
 ## Installing Particle Workbench:
 https://docs.particle.io/quickstart/workbench/
+![light](./images/workbench.PNG)
 
 ## More Projects:
 * https://docs.particle.io/quickstart/isk-project/#particle-variables-measure-temperature-amp-humidity
