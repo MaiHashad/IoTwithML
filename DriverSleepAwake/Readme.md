@@ -70,3 +70,8 @@ A pre-trained multi-layer convolutional network designed to efficiently classify
 ### Asleep / Not awake:
 
 ![red](./images/Red1.PNG)
+
+## References
+
+ * Adding Sight To Your Sensors: https://docs.arduino.cc/tutorials/nicla-vision/image-classification
+ * Image Classification with Edge Impulse : https://docs.arduino.cc/tutorials/nicla-vision/image-classification
